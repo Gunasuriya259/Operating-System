@@ -58,7 +58,7 @@ int main()
     {
         tat[i]=bt[i]+wt[i];
         total+=tat[i];
-        printf("\nP[%d]\t\t  %d\t\t    %d\t\t\t%d",p[i],bt[i],wt[i],tat[i]);
+        printf("\nP[%d]\t%d\t%d\t%d",p[i],bt[i],wt[i],tat[i]);
     }
  
     avg_tat=total/n;  
